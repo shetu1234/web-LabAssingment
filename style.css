@@ -1,0 +1,98 @@
+*{padding:0;}
+body{font-family:arial;font-size:20px;line-height:25px;}
+#primary_menu{list-style:none}
+#primary_menu li{float:left}
+#primary_menu li a{color:#222;font-weight:bold;text-decoration:none;padding:20px 30px;display:block;transition:all 1s}
+#primary_menu li a:hover{background:#00374c;color:#fff;
+transform:scale(1.1)
+}
+img{width:100%;}
+
+.displaySize{width:1170px;margin:auto; overflow:hidden;}
+h1{
+	 
+	color:tomato;
+}
+h2{
+	  text-align: center;
+	color:tomato;
+}
+h3{
+	color:tomato;
+}
+h4{
+	color:tomato;
+}
+p{
+font-size:25px;
+	
+}
+.color-change{
+    animation: colorChange 2s infinite;
+}
+@keyframes colorChange{
+    25%{color: orangered;}
+    50%{color: tomato;}
+    75%{color: turquoise;}
+    100%{color: yellow;}
+}
+
+nav#mainNav {
+    width: 100%;
+    overflow: hidden;
+    background: #B2EBF2;
+    border-bottom: 2px solid #FFEB3B;
+}
+menu#menuContainer{
+	width:700px;
+	float:right;
+	
+}
+#logodiv{
+	width:120px;
+	float:left;
+	padding:0px 20px;
+	text-align:center;
+	
+}
+#logodiv img{
+	margin-bottom:-45px;
+}
+
+
+.about,.food,.hobby{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    background-image:linear-gradient(#00000076,#00000076),
+linear-gradient(#00000076,#00000076), url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:left-top;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px;
+    border-radius: 5px;
+color:white;}
+
+
+
+.headline{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 25, 32);
+    color: white;
+    text-transform: uppercase;
+}
+footer{
+    height: 70px;
+    background-color: black;
+    border-top: 2px #0000ff;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size:blod;
+}
